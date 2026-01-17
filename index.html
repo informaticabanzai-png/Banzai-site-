@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <title>Banzai Informática</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<!-- ================= NAVBAR ================= -->
+<header class="navbar">
+  <div class="navbar-container">
+
+    <div class="navbar-logo">
+      <img src="assets/logo.png" alt="Banzai Informática">
+    </div>
+
+    <!-- MENU DESKTOP -->
+    <nav class="navbar-menu">
+      <a href="index.html">Home</a>
+      <a href="sobre.html">Sobre nós</a>
+      <a href="setups.html">Nossos clientes</a>
+    </nav>
+
+    <!-- BOTÃO MOBILE -->
+    <button class="menu-toggle" aria-label="Abrir menu">
+      ☰
+    </button>
+
+  </div>
+
+  <!-- MENU MOBILE -->
+  <nav class="mobile-menu">
+    <a href="index.html">Home</a>
+    <a href="sobre.html">Sobre nós</a>
+    <a href="setups.html">Nossos clientes</a>
+  </nav>
+</header>
+
+<main>
+
+<!-- ================= HERO ================= -->
+<section class="hero">
+
+  <div class="hero-content">
+
+    <span class="badge">🔥 Seu PC Gamer ao seu alcance!</span>
+
+    <h1>
+      Seu <span class="highlight">Sonho</span>,<br>
+      está mais perto de se realizar!
+    </h1>
+
+    <p class="hero-text">
+      Fazemos um orçamento de uma configuração que atenda suas necessidades,
+      você nos diz como e em quantas vezes consegue pagar.
+    </p>
+
+    <p class="hero-text">
+      Fechamos o contrato e, ao receber todas as peças ou finalizar o pagamento
+      das parcelas, você recebe seu
+      <span class="highlight">PC GAMER.</span>
+    </p>
+
+    <a href="https://wa.me/55339919166503" class="whatsapp-cta">
+      <img src="assets/whatsapp-icon.png" alt="WhatsApp">
+    </a>
+
+  </div>
+
+  <div class="hero-image">
+    <img src="assets/banzinho.png" alt="Mascote Banzai">
+  </div>
+
+</section>
+
+<div class="divider"></div>
+
+<!-- ================= POR QUE A BANZAI ================= -->
+<section class="section-normal">
+  <h2 class="section-title">Por que escolher a Banzai?</h2>
+
+  <div class="grid">
+    <div class="card">
+      <h3>🧠 Planejamento</h3>
+      <p>
+        Cada PC é pensado de acordo com seu objetivo
+        e com o quanto você pode pagar por mês.
+      </p>
+    </div>
+
+    <div class="card">
+      <h3>📄 Contrato</h3>
+      <p>
+        Tudo formalizado, com transparência e segurança
+        em cada etapa do processo.
+      </p>
+    </div>
+
+    <div class="card">
+      <h3>🛠️ Montagem profissional</h3>
+      <p>
+        Cuidado técnico, organização e testes antes da entrega.
+      </p>
+    </div>
+  </div>
+</section>
+
+<div class="divider"></div>
+
+<!-- ================= COMO FUNCIONA ================= -->
+<section class="section-normal">
+  <h2 class="section-title">Como funciona</h2>
+
+  <div class="grid">
+    <div class="card">
+      <h3>1️⃣ Planejamento</h3>
+      <p>Entendemos sua necessidade e seu orçamento.</p>
+    </div>
+
+    <div class="card">
+      <h3>2️⃣ Orçamento</h3>
+      <p>Montamos a melhor configuração possível para você.</p>
+    </div>
+
+    <div class="card">
+      <h3>3️⃣ Contrato</h3>
+      <p>Tudo documentado, sem surpresas.</p>
+    </div>
+
+    <div class="card">
+      <h3>4️⃣ Entrega</h3>
+      <p>Seu PC Gamer pronto para uso.</p>
+    </div>
+  </div>
+</section>
+
+<div class="divider"></div>
+
+<!-- ================= CTA FINAL ================= -->
+<section class="cta">
+  <h2>Pronto para dar o primeiro passo?</h2>
+  <p>
+    Fale conosco agora e vamos planejar juntos o seu PC Gamer.
+  </p>
+
+  <a href="https://wa.me/55339919166503" class="btn glow">
+    Quero meu PC Gamer
+  </a>
+</section>
+
+</main>
+
+<!-- ================= FOOTER ================= -->
+<footer>
+  <p>© Banzai Informática</p>
+</footer>
+
+<!-- ================= JS MENU MOBILE ================= -->
+<script>
+  const toggle = document.querySelector('.menu-toggle');
+  const mobileMenu = document.querySelector('.mobile-menu');
+
+  toggle.addEventListener('click', () => {
+    mobileMenu.classList.toggle('active');
+  });
+</script>
+
+</body>
+</html>

@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <title>Nossa História | Banzai Informática</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<!-- ================= NAVBAR ================= -->
+<header class="navbar">
+  <div class="navbar-container">
+
+    <div class="navbar-logo">
+      <img src="assets/logo.png" alt="Banzai Informática">
+    </div>
+
+    <nav class="navbar-menu">
+      <a href="index.html">Home</a>
+      <a href="sobre.html">Sobre nós</a>
+      <a href="setups.html">Nossos clientes</a>
+    </nav>
+
+    <button class="menu-toggle" aria-label="Abrir menu">
+      ☰
+    </button>
+  </div>
+
+  <nav class="mobile-menu">
+    <a href="index.html">Home</a>
+    <a href="sobre.html">Sobre nós</a>
+    <a href="setups.html">Nossos clientes</a>
+  </nav>
+</header>
+
+<main>
+
+<!-- ================= HERO SOBRE ================= -->
+<section class="hero hero-sobre">
+
+  <div class="hero-content">
+    <span class="badge">🚀 Nossa História</span>
+
+    <h1>
+      A história por trás da <span class="highlight">Banzai</span>
+    </h1>
+
+    <p class="hero-text">
+      A Banzai nasceu da união entre paixão por tecnologia,
+      visão criativa e vontade real de fazer diferente.
+    </p>
+
+    <p class="hero-text">
+      Muito antes de ser uma empresa, a Banzai já existia como ideia,
+      construída com esforço, aprendizado e parceria.
+    </p>
+  </div>
+
+  <div class="hero-image">
+    <!-- IMAGEM DOS FUNDADORES -->
+    <img src="assets/fundadores.png" alt="Fundadores da Banzai">
+  </div>
+
+</section>
+
+<div class="divider"></div>
+
+<!-- ================= HISTÓRIA ================= -->
+<section class="section-normal">
+
+  <h2 class="section-title">Como tudo começou</h2>
+
+  <div class="grid grid-text">
+
+    <div class="card">
+      <p>
+        Desde muito cedo, o fundador da Banzai já desmontava,
+        consertava e aprendia tudo o que podia sobre computadores.
+        Mesmo sem condições de ter um bom PC, a paixão por tecnologia
+        e jogos sempre esteve presente.
+      </p>
+
+      <p>
+        Com o tempo, as responsabilidades da vida adulta fizeram
+        essa paixão ficar adormecida, mas nunca desaparecer.
+      </p>
+    </div>
+
+    <div class="card">
+      <p>
+        Em 2024, com a vida mais estável, surgiu algo essencial:
+        uma parceria. Ao lado de uma designer, nasceu a necessidade
+        de montar um computador realmente capaz de atender trabalho
+        e desempenho.
+      </p>
+
+      <p>
+        Foi nesse momento que técnica e criatividade se encontraram.
+        Não era apenas montar um PC, era criar algo bem pensado,
+        funcional e visualmente alinhado.
+      </p>
+    </div>
+
+  </div>
+
+</section>
+
+<div class="divider"></div>
+
+<!-- ================= NASCIMENTO DA BANZAI ================= -->
+<section class="section-normal">
+
+  <h2 class="section-title">O nascimento da Banzai</h2>
+
+  <div class="grid">
+
+    <div class="card">
+      <p>
+        O primeiro PC chamou atenção. Amigos começaram a pedir ajuda,
+        indicações de peças e montagens completas.
+      </p>
+    </div>
+
+    <div class="card">
+      <p>
+        Foi então que, juntos, surgiu a ideia de transformar aquilo
+        em algo maior. Nome, identidade visual, conceito e propósito
+        foram definidos em parceria.
+      </p>
+    </div>
+
+    <div class="card">
+      <p>
+        Assim nasceu a Banzai Informática: unindo conhecimento técnico,
+        design, planejamento e uma visão clara de fazer diferente.
+      </p>
+    </div>
+
+  </div>
+
+</section>
+
+<div class="divider"></div>
+
+<!-- ================= PC DOS SONHOS ================= -->
+<section class="section-normal">
+
+  <h2 class="section-title">PC dos Sonhos Banzai</h2>
+
+  <div class="grid">
+
+    <div class="card">
+      <p>
+        Com o crescimento da Banzai, ficou claro que muitos clientes
+        tinham o mesmo desafio: queriam um PC Gamer,
+        mas não conseguiam pagar tudo de uma vez.
+      </p>
+    </div>
+
+    <div class="card">
+      <p>
+        Assim nasceu o <strong>PC dos Sonhos Banzai</strong>,
+        um modelo que permite construir o computador aos poucos,
+        com planejamento, contrato e total transparência.
+      </p>
+    </div>
+
+    <div class="card">
+      <p>
+        Cada projeto é pensado respeitando a realidade do cliente,
+        sem promessas vazias e sem empurrar peças desnecessárias.
+      </p>
+    </div>
+
+  </div>
+
+</section>
+
+<div class="divider"></div>
+
+<!-- ================= PROPÓSITO ================= -->
+<section class="cta">
+
+  <h2>Nosso propósito</h2>
+
+  <p>
+    Unir tecnologia, criatividade e confiança para tornar
+    o PC Gamer acessível, real e possível para quem sempre sonhou.
+  </p>
+
+</section>
+
+</main>
+
+<!-- ================= FOOTER ================= -->
+<footer>
+  <p>© Banzai Informática</p>
+</footer>
+
+<!-- ================= JS MENU MOBILE ================= -->
+<script>
+  const toggle = document.querySelector('.menu-toggle');
+  const mobileMenu = document.querySelector('.mobile-menu');
+
+  toggle.addEventListener('click', () => {
+    mobileMenu.classList.toggle('active');
+  });
+</script>
+
+</body>
+</html>
